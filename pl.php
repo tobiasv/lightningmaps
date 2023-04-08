@@ -55,7 +55,7 @@ $L['lm_live_set_thunder_max'] = 'max';
 $L['lm_live_set_thunder_off'] = 'wył.';
 
 //en: 'Shows the thunder sound front in realtime on higher zoom levels.'
-$L['lm_live_set_thunder_info'] = 'Przy odpowiednio dużym powiększeniu pokazuje front fali grzmotu.';
+$L['lm_live_set_thunder_info'] = 'Pokazuje front fali grzmotu przy odpowiednio dużym powiększeniu.';
 
 //en: 'Clouds'
 $L['lm_live_set_clouds'] = 'Chmury';
@@ -100,7 +100,7 @@ $L['lm_live_stations_off'] = 'Stacje: wył.';
 $L['lm_live_stations_on'] = 'Stacje: wł.';
 
 //en: 'Strokes of the last 60 minutes are shown. The real-time data comes directly from the computing servers of [Blitzortung], which are fed by hundreds of stations on several continents. The delay is calculated from the time stamps of each strokes compared to the current time.'
-$L['lm_live_info'] = 'Pokazywane są wyładowania z ostatnich 60 minut. Dane czasu rzeczywistego pochodzą bezpośrednio z serwerów obliczeniowych [Blitzortung], które zbierają dane z setek stacji z kilku kontynentów. Opóźnienie jest obliczone jako porównanie znaku czasu wyładowania i czasu aktualnego.';
+$L['lm_live_info'] = 'Pokazywane są wyładowania z ostatnich 60 minut. Dane czasu rzeczywistego pochodzą bezpośrednio z serwerów obliczeniowych [Blitzortung], które zbierają dane z setek stacji z kilku kontynentów. Opóźnienie jest obliczone jako porównanie czasu wyładowania i czasu aktualnego.';
 
 //en: 'Legend'
 $L['lm_live_info_legend_title'] = 'Legenda';
@@ -109,19 +109,19 @@ $L['lm_live_info_legend_title'] = 'Legenda';
 $L['lm_live_info_legend1'] = 'Nowe wyładowania są oznaczone czerwonym obramowaniem, które stopniowo zanika po czasie [sec] sekund.';
 
 //en: 'The color of filled circles represent the age of strikes up to [minutes] minutes. New strikes are yellow. The older they get, the darker the color. Dark brown is equal to almost [minutes] minutes. Those strikes will vanish soon.'
-$L['lm_live_info_legend2'] = 'Wypełnienie kółek oznacza czas, jaki upłynął od wyładowania, do [minutes] minut. Nowe wyładowania są pokazane na żółto. Im starsze są, tym ciemniejszy kolor. Ciemnobrązowy jest równy prawie [minutes] minut. Te wkrótce znikną.';
+$L['lm_live_info_legend2'] = 'Wypełnienie kółek oznacza czas, jaki upłynął od wyładowania, do [minutes] minut. Nowe wyładowania są pokazane na żółto, im są starsze, tym ciemniejszy jest ich kolor. Ciemnobrązowy jest równy prawie [minutes] minutom. Te wkrótce znikną.';
 
 //en: 'On higher zoom levels the thunder front of current strikes is shown as white transparent growing circle (speed of sound). It gets more transparent while travelling and disappears after a while.'
-$L['lm_live_info_legend3'] = 'Przy odpowiednio dużym powiększeniu pokazany jest front fali grzmotu danego wyładowania, jako biały półprzezroczysty okrąg (szybkość dźwięku). Wraz z dystansem staje się coraz bardziej przezroczysty i zanika po chwili.';
+$L['lm_live_info_legend3'] = 'Przy odpowiednio dużym powiększeniu, front fali grzmotu danego wyładowania wyświetlany jest jako biały, półprzezroczysty, rozszerzający się  okrąg (szybkość dźwięku). Wraz z pokonanym dystansem staje się coraz bardziej przezroczysty i zanika po chwili.';
 
 //en: 'Enable "tick" sound on every lightning stroke in the current map view. This feature might not be available on every device/browser.'
 $L['lm_live_snd_info'] = 'Włącz dźwięk "tykania" dla wyładowania w aktualnym obszarze mapy. Ta opcja może nie być dostępna dla każdego urządzenia/przeglądarki.';
 
 //en: 'Displays participating stations for each lightning stroke. The color of the lines between stations and stroke depends on the distance. The higher the distance the more blue instead of green. Note that the angle spanned by participating station is another important factor. Distances of a few hundred kilometers max. and stations on every side of the thunderstorms give best results. Station which have been used for calculating the position are highlighted in purple for a short time. IMPORTANT: This feature can have negative impact on your system performance! Using "Chrome" is recommended.'
-$L['lm_live_stations_info'] = 'Wyświetla stacje, które uczestniczyły w wykryciu danego wyładowania. Kolor linii łączących stację z miejscem wyładowania wskazuje na odległość. Im większy dystans, tym bardziej niebieski, zamiast zielonego kolor linii. Zwróć uwagę na pozycję wszystkich stacji raportujących wyładowanie. Odległość kilkuset kilometrów i stacje rozsiane na wszystkie strony dają najlepsze rezultaty. Stacje, które zostały uwzględnione przy obliczaniu miejsca wyładowania są podświetlone na fioletowo przez krótki czas. WAŻNE: Ta opcja może mieć negatywny wpływ na wydajność systemu! Zalecane jest używanie "Chrome".';
+$L['lm_live_stations_info'] = 'Wyświetla stacje, które uczestniczyły w wykryciu danego wyładowania. Kolor linii łączących stację z miejscem wyładowania wskazuje na odległość. Wraz ze wzrostem dystansu, kolor linii przechodzi z odcienia niebieskiego na zielony. Należy zauważyć, że kąt rozpięty przez uczestniczącą stację jest kolejnym ważnym czynnikiem. Odległość maksymalnie kilkuset kilometrów oraz obecność stacji w miejscach otaczających burzę, skutkuje najlepszymi rezultatami. Stacje, które zostały uwzględnione przy obliczaniu miejsca wyładowania są podświetlone na fioletowo przez krótki czas. WAŻNE: Ta opcja może mieć negatywny wpływ na wydajność systemu! Zalecane jest używanie "Chrome".';
 
 //en: 'See more real-time maps on Blitzortung.org'
-$L['lm_live_blitzortung_more'] = 'Zobacz więcej map w czasie rzeczywistym na Blitzortung.org';
+$L['lm_live_blitzortung_more'] = 'Zobacz więcej map czasu rzeczywistego na Blitzortung.org';
 
 //en: 'IMPORTANT: This map is intended for entertainment purposes only!'
 $L['lm_live_usage'] = 'WAŻNE: Ta mapa została stworzona wyłącznie do celów rozrywkowych!';
